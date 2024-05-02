@@ -1,0 +1,29 @@
+.bigbox{
+    margin-top: 10vh;
+    text-align: center;
+}
+.inp{
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 10px;
+    width: 40vw;
+    font-size: 20px;
+}
+.inp:focus {
+    
+}
+.options{
+    border: 2px solid black;
+    width: 40.8vw;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    max-height:59vh;
+    overflow: auto;
+}
+.opt{
+    margin: 5px;
+}
+.opt:hover{
+    background-color: black;
+    color: white;
+}

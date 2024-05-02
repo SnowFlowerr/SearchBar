@@ -20,7 +20,7 @@ export default function Search() {
     return (
         <div className={styles.bigbox}>
             <input type="text" onChange={handleChange} className={styles.inp} value={inp} placeholder='Search Here'/>
-            <div className={styles.options} id='option'>
+            <div className={styles.options}>
             {arr.map((ele) => <div className={styles.opt} onClick={()=>handleSelect(ele)}>{ele}</div>)}
             </div>
         </div>
